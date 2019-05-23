@@ -19,7 +19,7 @@ public class FruitStoreTest {
     /**
      * 邮寄打包
      */
-    public static void pack(){
+    public static void pack() {
         //初始化苹果工厂
         fruitFactory = new AppleFactory();//猎取工厂不对应
         Fruit fruit = fruitFactory.getFruit();

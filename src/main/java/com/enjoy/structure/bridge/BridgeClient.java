@@ -6,7 +6,7 @@ import com.enjoy.structure.bridge.material.Material;
 import com.enjoy.structure.bridge.material.Paper;
 
 /**
- * 园丁采摘水果　　　　　　　　　　　　　　　　　　　　　　 　
+ * 园丁采摘水果
  */
 public class BridgeClient {
 

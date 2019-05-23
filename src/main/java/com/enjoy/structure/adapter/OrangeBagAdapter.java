@@ -9,7 +9,7 @@ import com.enjoy.entity.bag.OrangeBag;
 public class OrangeBagAdapter extends OrangeBag {
     private AppleBag appleBag;
 
-    public OrangeBagAdapter(AppleBag appleBag){
+    public OrangeBagAdapter(AppleBag appleBag) {
         this.appleBag = appleBag;
     }
 

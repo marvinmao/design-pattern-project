@@ -18,11 +18,12 @@ import java.util.Map;
  */
 public class ShoppingCartClient {
 
-    private static Map<String,Discount> disCounts = new HashMap();
+    private static Map<String, Discount> disCounts = new HashMap();
+
     static {
-        disCounts.put("full",new FullDiscount());
-        disCounts.put("newer",new NewerDiscount());
-        disCounts.put("second",new SecondDiscount());
+        disCounts.put("full", new FullDiscount());
+        disCounts.put("newer", new NewerDiscount());
+        disCounts.put("second", new SecondDiscount());
     }
 
     public static void main(String[] args) {

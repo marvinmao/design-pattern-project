@@ -10,7 +10,7 @@ public class HolidayMultyDiscount extends MultyDiscount {
 
     @Override
     public int calculate(int money) {
-        if (money > 20){
+        if (money > 20) {
             System.out.println("假日一律减5元");
             money = money - 5;
         }

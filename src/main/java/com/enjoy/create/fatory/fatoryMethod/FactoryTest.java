@@ -22,7 +22,7 @@ public class FactoryTest {
     }
 
     //Peter自己吃水果
-    public static void peterdo(){
+    public static void peterdo() {
         Fruit fruit = fruitFactory.getFruit();
         fruit.draw();
         //。。。直接啃着吃，吃掉了
@@ -30,7 +30,7 @@ public class FactoryTest {
     }
 
     //送给james，切开吃
-    public static void jamesdo(){
+    public static void jamesdo() {
         Fruit fruit = fruitFactory.getFruit();
         fruit.draw();
         //。。。切开吃
@@ -38,7 +38,7 @@ public class FactoryTest {
     }
 
     //送给lison榨汁喝
-    public static void lisondo(){
+    public static void lisondo() {
         Fruit fruit = fruitFactory.getFruit();
         fruit.draw();
         //。。。榨汁动作

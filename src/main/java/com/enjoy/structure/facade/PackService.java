@@ -15,7 +15,7 @@ public class PackService {
     /**
      * 水果打包：防伪/加固/加急等
      */
-    public void doPack(){
+    public void doPack() {
         AbstractFactory factory = new AppleFactory();
 
         //得到包装
@@ -29,7 +29,7 @@ public class PackService {
         bag.pack();
     }
 
-    public void doOther(){
+    public void doOther() {
         System.out.println("其它服务");
     }
 }

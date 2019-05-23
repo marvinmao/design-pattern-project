@@ -17,6 +17,6 @@ public class ListView {
     public void getList() {
         System.out.print("首页请求");
         String result = command.execute();
-        System.out.println("当前列表："+result);
+        System.out.println("当前列表：" + result);
     }
 }

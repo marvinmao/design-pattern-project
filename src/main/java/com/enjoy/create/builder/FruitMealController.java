@@ -19,7 +19,7 @@ public class FruitMealController {//收银台---导演类
 
 
         int cost = fruitMeal.cost();
-        System.out.println("本套件花费："+cost);
+        System.out.println("本套件花费：" + cost);
     }
 
     public static void main(String[] args) {

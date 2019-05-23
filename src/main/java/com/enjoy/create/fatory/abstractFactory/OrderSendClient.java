@@ -9,11 +9,11 @@ import com.enjoy.entity.Fruit;
  * Created on 10/8 008.
  */
 public class OrderSendClient {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         sendFruit();
     }
 
-    public static void sendFruit(){
+    public static void sendFruit() {
         //初始化工厂
         AbstractFactory factory = new AppleFactory();//spring使用注入方式
 
@@ -26,7 +26,6 @@ public class OrderSendClient {
         //以下物流运输业务。。。。
 
     }
-
 
 
 }

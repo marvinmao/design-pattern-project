@@ -27,7 +27,7 @@ public class OldCustomerBuilder implements Builder {
 
     @Override
     public void buildOrange(int price) {
-        Orange fruit = new Orange("Peter",80);
+        Orange fruit = new Orange("Peter", 80);
         fruit.setPrice(price);
         fruitMeal.setOrange(fruit);
     }

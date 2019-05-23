@@ -8,7 +8,7 @@ import com.enjoy.entity.fruit.Banana;
 /**
  * 水果工厂
  */
-public class BananaFactory extends AbstractFactory{
+public class BananaFactory extends AbstractFactory {
 
     @Override
     public Fruit getFruit() {

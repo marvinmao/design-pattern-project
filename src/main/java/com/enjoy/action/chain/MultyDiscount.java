@@ -5,15 +5,15 @@ import com.enjoy.action.strategy.Discount;
 /**
  * Created on 10/29 029.
  */
-public abstract class MultyDiscount implements Discount{
+public abstract class MultyDiscount implements Discount {
     protected MultyDiscount nextMultyDiscount;
 
-    public MultyDiscount(MultyDiscount nextMultyDiscount){
+    public MultyDiscount(MultyDiscount nextMultyDiscount) {
         this.nextMultyDiscount = nextMultyDiscount;
     }
 
-    public int calculate(int money){
-        if (this.nextMultyDiscount != null){
+    public int calculate(int money) {
+        if (this.nextMultyDiscount != null) {
             return this.nextMultyDiscount.calculate(money);
         }
         return money;

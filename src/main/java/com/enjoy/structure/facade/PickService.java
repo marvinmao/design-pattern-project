@@ -13,7 +13,7 @@ public class PickService {
     /**
      * 采摘水果
      */
-    public void doPick(){
+    public void doPick() {
         //袋子型号
         BagAbstraction pickBag = new SmallBag();
 
@@ -25,7 +25,7 @@ public class PickService {
         pickBag.pick();
     }
 
-    public void doOther(){
+    public void doOther() {
         System.out.println("其它服务");
     }
 }

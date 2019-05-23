@@ -5,7 +5,7 @@ public class CustomerObserver implements Observer {
 
     private String name;
 
-    public CustomerObserver(String name){
+    public CustomerObserver(String name) {
         this.name = name;
     }
 

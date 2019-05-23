@@ -18,7 +18,7 @@ public class PeterClient {
     }
 
     //Peter自己吃水果
-    public static void peterdo(){
+    public static void peterdo() {
         Fruit fruit = new Apple();
         fruit.draw();
         //。。。直接啃着吃，吃掉了
@@ -26,7 +26,7 @@ public class PeterClient {
     }
 
     //送给james，切开吃
-    public static void jamesdo(){
+    public static void jamesdo() {
         Fruit fruit = new Apple();
         fruit.draw();
         //。。。切开吃
@@ -34,8 +34,8 @@ public class PeterClient {
     }
 
     //送给lison榨汁喝
-    public static void lisondo(){
-        Fruit fruit = new Orange("peter",100);
+    public static void lisondo() {
+        Fruit fruit = new Orange("peter", 100);
         fruit.draw();
         //。。。榨汁运作
         System.out.println("-----------------");

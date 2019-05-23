@@ -12,7 +12,7 @@ public class CommandClient {
 
     public static void main(String[] args) {
         //三个命令，代表三个请求
-        Command command1,command2,command3;
+        Command command1, command2, command3;
         command1 = new HotCommand();
         command2 = new NewerCommand();
         command3 = new DiscountCommand();
@@ -22,7 +22,6 @@ public class CommandClient {
         listView.setCommand(command2);
 
         listView.getList();
-
 
 
     }

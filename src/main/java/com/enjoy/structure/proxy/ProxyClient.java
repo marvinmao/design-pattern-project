@@ -7,11 +7,11 @@ import com.enjoy.service.OrderService;
  * 代售进口水果
  */
 public class ProxyClient {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         saveOrder();
     }
 
-    public static void saveOrder(){
+    public static void saveOrder() {
         //本地代理类
         OrderService orderService = new ProxyOrder();
 
@@ -20,7 +20,6 @@ public class ProxyClient {
         //其它业务代码。。。。
 
     }
-
 
 
 }

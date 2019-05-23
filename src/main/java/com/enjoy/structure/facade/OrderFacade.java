@@ -9,7 +9,7 @@ public class OrderFacade {
     private SendService sendService;
 
 
-    public OrderFacade(){
+    public OrderFacade() {
         pickService = new PickService();
         packService = new PackService();
         sendService = new SendService();
@@ -18,7 +18,7 @@ public class OrderFacade {
     /**
      * 客户订单处理类
      */
-    public void doOrder(){
+    public void doOrder() {
         //采摘
         System.out.println("--------------");
         pickService.doPick();
@@ -31,7 +31,6 @@ public class OrderFacade {
         sendService.doSend();
 
     }
-
 
 
 }

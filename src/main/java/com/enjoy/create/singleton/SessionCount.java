@@ -7,15 +7,15 @@ public class SessionCount {
 
     private static SessionCount instance;//懒汉式
 
-    private SessionCount(){
+    private SessionCount() {
     }
 
     //获取唯一可用的对象
     //懒汉式
-    public static SessionCount getInstance(){
-        if (instance == null){//双重校验锁
-            synchronized (SessionCount.class){
-                if (instance == null){
+    public static SessionCount getInstance() {
+        if (instance == null) {//双重校验锁
+            synchronized (SessionCount.class) {
+                if (instance == null) {
                     instance = new SessionCount();
                 }
             }
@@ -25,16 +25,16 @@ public class SessionCount {
     }
 
     /***以下是业务方法***/
-    public int plus(){
+    public int plus() {
         return count.incrementAndGet();
     }
 
-    public int decrease(){
+    public int decrease() {
         return count.decrementAndGet();
     }
 
-    public void showMessage(){
-        System.out.println("当前人数："+this.count.get());
+    public void showMessage() {
+        System.out.println("当前人数：" + this.count.get());
     }
 
 

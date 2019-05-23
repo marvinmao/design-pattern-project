@@ -15,7 +15,7 @@ public class StaticFactoryClient {
     }
 
     //Peter自己吃水果
-    public static void peterdo(){
+    public static void peterdo() {
         Fruit fruit = StaticFactory.getFruit(StaticFactory.TYPE_BANANA);
         fruit.draw();
         //。。。直接啃着吃，吃掉了
@@ -23,7 +23,7 @@ public class StaticFactoryClient {
     }
 
     //送给james，切开吃
-    public static void jamesdo(){
+    public static void jamesdo() {
         Fruit fruit = StaticFactory.getFruitBanana();
         fruit.draw();
         //。。。切开吃
@@ -31,7 +31,7 @@ public class StaticFactoryClient {
     }
 
     //送给lison榨汁喝
-    public static void lisondo(){
+    public static void lisondo() {
         Fruit fruit = StaticFactory.getFruit(StaticFactory.TYPE_APPLE);
         fruit.draw();
         //。。。榨汁动作

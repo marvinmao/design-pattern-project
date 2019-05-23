@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * Created on 10/29 029.
  */
-public class LeafNode extends Node{
+public class LeafNode extends Node {
     public LeafNode(String name) {
         super(name);
     }

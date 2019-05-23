@@ -3,10 +3,11 @@ package com.enjoy.create.prototype;
 /**
  * Created on 10/9 009.
  */
-public class Admin implements Cloneable{
+public class Admin implements Cloneable {
 
     private int age;
     private String sex;
+
     public Admin(int age, String sex) {
         super();
         this.age = age;
@@ -32,7 +33,7 @@ public class Admin implements Cloneable{
 
     @Override
     public String toString() {
-        return "Admin [age=" + age + ", sex=" + sex  + "]";
+        return "Admin [age=" + age + ", sex=" + sex + "]";
     }
 
 }

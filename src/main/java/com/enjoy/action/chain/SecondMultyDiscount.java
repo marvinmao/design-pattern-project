@@ -11,7 +11,7 @@ public class SecondMultyDiscount extends MultyDiscount {
     @Override
     public int calculate(int money) {
         System.out.println("第二单打9折");
-        Double balance =  money * 0.9;
+        Double balance = money * 0.9;
 
         return super.calculate(balance.intValue());
     }

@@ -12,12 +12,12 @@ public class Orange implements Fruit {
     private String name = "";
     private int price = 70;
 
-    public Orange(String name,int price){
+    public Orange(String name, int price) {
         this.price = price;
         this.name = name;
     }
 
-    public void pack(OrangeBag bag){
+    public void pack(OrangeBag bag) {
         bag.pack();
     }
 
@@ -31,7 +31,7 @@ public class Orange implements Fruit {
         System.out.print("砂糖桔");
     }
 
-    public int accept(Visit visit){
+    public int accept(Visit visit) {
         return visit.sell(this);
     }
 

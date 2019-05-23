@@ -10,7 +10,7 @@ public class NewerMultyDiscount extends MultyDiscount {
 
     @Override
     public int calculate(int money) {
-        if (money > 100){
+        if (money > 100) {
             System.out.println("首次购买减20元");
             money = money - 30;
         }

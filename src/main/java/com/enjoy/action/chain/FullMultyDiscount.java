@@ -10,7 +10,7 @@ public class FullMultyDiscount extends MultyDiscount {
 
     @Override
     public int calculate(int money) {
-        if (money > 200){
+        if (money > 200) {
             System.out.println("优惠满减20元");
             money = money - 20;
         }

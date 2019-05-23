@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Created on 10/29 029.
  */
-public class DistrictNode extends Node{
+public class DistrictNode extends Node {
     private List<Node> children = new ArrayList<>();
 
     public DistrictNode(String name) {
@@ -18,11 +18,11 @@ public class DistrictNode extends Node{
         return children;
     }
 
-    public void addChild(Node node){
+    public void addChild(Node node) {
         children.add(node);
     }
 
-    public void delChild(int i){
+    public void delChild(int i) {
         children.remove(i);
     }
 

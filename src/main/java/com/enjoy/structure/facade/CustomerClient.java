@@ -6,11 +6,11 @@ package com.enjoy.structure.facade;
 public class CustomerClient {
 
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         doOrderFacade();
     }
 
-    public static void doOrder(){
+    public static void doOrder() {
 
         PickService pickService = new PickService();
         PackService packService = new PackService();
@@ -29,7 +29,7 @@ public class CustomerClient {
 
     }
 
-    public static void doOrderFacade(){
+    public static void doOrderFacade() {
         OrderFacade orderFacade = new OrderFacade();
         orderFacade.doOrder();
     }

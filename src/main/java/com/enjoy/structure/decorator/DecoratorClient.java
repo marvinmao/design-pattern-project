@@ -9,11 +9,11 @@ import com.enjoy.entity.Fruit;
  * 装饰器模式测试
  */
 public class DecoratorClient {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         sendFruit();
     }
 
-    public static void sendFruit(){
+    public static void sendFruit() {
         AbstractFactory factory = new AppleFactory();
 
         //得到水果
@@ -32,7 +32,6 @@ public class DecoratorClient {
         //以下物流运输业务。。。。
 
     }
-
 
 
 }

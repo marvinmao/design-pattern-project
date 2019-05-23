@@ -11,15 +11,15 @@ import com.enjoy.entity.bag.AppleBag;
 public class Apple implements Fruit {
     private int price = 100;
 
-    public Apple(){
+    public Apple() {
 
     }
 
-    public Apple(int price){
+    public Apple(int price) {
         this.price = price;
     }
 
-    public void pack(AppleBag bag){
+    public void pack(AppleBag bag) {
         bag.pack();
     }
 
@@ -38,9 +38,7 @@ public class Apple implements Fruit {
     }
 
 
-
-
-    public int accept(Visit visit){
+    public int accept(Visit visit) {
         return visit.sell(this);//指针可以传递真实类型
     }
 

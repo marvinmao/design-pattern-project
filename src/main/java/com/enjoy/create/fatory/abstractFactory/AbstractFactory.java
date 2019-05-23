@@ -8,7 +8,7 @@ import com.enjoy.entity.Fruit;
  */
 public abstract class AbstractFactory {
 
-    public abstract  Fruit getFruit();
+    public abstract Fruit getFruit();
 
     public abstract Bag getBag();
 

@@ -6,7 +6,7 @@ package com.enjoy.action.strategy;
 public class NewerDiscount implements Discount {
     @Override
     public int calculate(int money) {
-        if (money > 100){
+        if (money > 100) {
             return money - 20;
         }
         return money;

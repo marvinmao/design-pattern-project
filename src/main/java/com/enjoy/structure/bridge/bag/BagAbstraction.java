@@ -10,7 +10,7 @@ public abstract class BagAbstraction {
     protected Material material;
 //    protected Material material;
 
-    public void setMaterial(Material material){
+    public void setMaterial(Material material) {
         this.material = material;
     }
 

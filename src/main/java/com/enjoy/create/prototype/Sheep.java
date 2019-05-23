@@ -49,7 +49,7 @@ public class Sheep implements Cloneable {
     public Sheep clone() {
         Sheep sheep = null;
         try {
-            sheep =  (Sheep) super.clone();
+            sheep = (Sheep) super.clone();
             sheep.admin = this.admin.clone();
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();

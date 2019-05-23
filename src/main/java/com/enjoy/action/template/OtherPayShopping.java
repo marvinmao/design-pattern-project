@@ -8,7 +8,7 @@ import java.util.List;
  * 模板方法模式
  * 购物车费用结算过程
  */
-public class OtherPayShopping extends ShoppingCart{
+public class OtherPayShopping extends ShoppingCart {
 
 
     public OtherPayShopping(List<Fruit> products) {

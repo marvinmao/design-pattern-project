@@ -16,6 +16,7 @@ public class ChainCartClient {
 
     //初始化满减优惠券
     private static MultyDiscount multyDiscount = new FullMultyDiscount(null);
+
     static {
         multyDiscount = new NewerMultyDiscount(multyDiscount);
         multyDiscount = new SecondMultyDiscount(multyDiscount);

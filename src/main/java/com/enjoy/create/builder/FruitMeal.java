@@ -31,21 +31,21 @@ public class FruitMeal {
         this.orange = orange;
     }
 
-    public int cost(){
+    public int cost() {
         return this.totalPrice;
     }
 
     public void init() {
-        if (null != apple){
+        if (null != apple) {
             totalPrice += apple.price();
         }
-        if (null != orange){
+        if (null != orange) {
             totalPrice += orange.price();
         }
-        if (null != banana){
+        if (null != banana) {
             totalPrice += banana.price();
         }
-        if (totalPrice > 0){
+        if (totalPrice > 0) {
             totalPrice -= discount;
         }
     }
